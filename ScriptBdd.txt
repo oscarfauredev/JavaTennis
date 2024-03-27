@@ -1,0 +1,23 @@
+CREATE DATABASE IF NOT EXISTS tennis_school;
+USE tennis_school;
+
+CREATE TABLE IF NOT EXISTS student (
+    id VARCHAR(5) PRIMARY KEY,
+    firstname VARCHAR(50),
+    lastname VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS subject (
+    id VARCHAR(5) PRIMARY KEY,
+    name VARCHAR(50),
+    factor INT
+);
+
+CREATE TABLE IF NOT EXISTS grade (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(5),
+    subject_id VARCHAR(5),
+    grade INT,
+    FOREIGN KEY (student_id) REFERENCES student(id),
+    FOREIGN KEY (subject_id) REFERENCES subject(id)
+);

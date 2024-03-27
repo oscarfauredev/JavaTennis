@@ -1,0 +1,13 @@
+[27/03/2024 16:26:07] add student firstName=Ben, lastName=Père
+[27/03/2024 16:28:22] add student firstName=Gilou, lastName=Monsi
+[27/03/2024 16:30:47] add student firstName=test, lastName=test
+[27/03/2024 16:54:46] update student id=4, newFirstName=David, newLastName=Guetta
+[27/03/2024 16:55:08] delete student id=4
+[27/03/2024 17:05:52] update student id=5, newFirstName=guy, newLastName=petard
+[27/03/2024 17:06:05] delete student id=5
+[27/03/2024 17:07:02] add subject name=test, factor=4
+[27/03/2024 17:07:28] add grade student_id=3, subject_id=5, grade=80 
+[27/03/2024 17:07:43] update subject id=4, newName=prout, newFactor=4
+[27/03/2024 17:07:55] update grade id=10, newGrade=80
+[27/03/2024 17:08:07] delete subject id=4
+[27/03/2024 17:08:11] delete grade id=10
